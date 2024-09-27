@@ -1,0 +1,124 @@
+getgenv().aether = {
+    ['Intro'] = {
+        ['Intro'] = true,
+        ['Watermark'] = true,
+    }
+},
+['Binds'] = {
+    ['Camlock'] = 'C',
+    ['Silent'] = 'E',
+    ['Macro'] = 'X',
+    ['TB'] = 'T',
+    ['Spin'] = 'V',
+},
+['License'] = {
+    ['Values'] = {
+        ['License'] = "LICENSE",
+    }
+},
+['Attacking'] = {
+    ['Settings'] = {
+        ['Silent'] = {
+            ['Active'] = true,
+            ['Mode'] "NearestPart", -- NearestPart, NearestPoint, R15, WhitelistedPartsOnly --
+            ['WhiteListedParts'] = {"Head", "HumanoidRootPart", "RightLowerLeg"},
+            ['Predictive'] = 0.1243,
+            ['Safety'] = {
+                ['KOCheck'] = true,
+                ['KnockedCheck'] = false,
+                ['WallCheck'] = true,
+                ['AntiCurve'] = true,
+            },
+            ['FOV'] = {
+                ['Active'] = true,
+                ['DottedFOV'] = false,
+                ['Transparency'] 1,
+                ['Radius'] = 150,
+                ['Colour'] = Color3.fromRGB(255, 255, 255)
+                ['Filled'] = {
+                    ['FillColour'] = Color3.fromRGB(198, 0, 255)
+                    ['FillTransparency'] = 0.3,
+                }
+            }
+        }
+    },
+    ['Aiming'] = {
+        ['Settings'] = {
+            ['Type'] = "Target", -- Target, FOV --
+            ['Predictive'] = 0.014576,
+            ['CameraSmoothing'] = 0.042783,
+            ['Mode'] = "WhitelistedPartsOnly", -- NearestPart, NearestPoint, R15, WhitelistedPartsOnly --
+            ['WhitelistedParts'] = {"Head", "HumanoidRootPart", "RightLowerLeg"},
+            ['StickyAim'] = true,
+        }
+    },
+    ['AirType'] = {
+        ['AirBoundPrediction'] = true,
+        ['AirPart'] = 'RightLowerLeg'
+        ['AirBindingSmoothness'] = 0.078842,
+        ['AirBoundShotPrediction'] = 0.12663,
+    },
+    ['MultipleAirParts'] = {
+        ['Active'] = true,
+        ['WhitelistedAirParts'] = {"Head", "RightLowerLeg", "LeftUpperArm", "HumanoidRootPart"},
+    },
+    ['TriggerBot'] = {
+        ['Active'] = true,
+        ['Predictive'] = 0.135,
+        ['UseFOV'] = false,
+        ['DelayFactors'] = {
+            ['Active'] = true,
+            ['Delay'] = 0.07,
+        },
+        ['WhitelistedWeapons'] = {
+            ['Weapons'] = {"Revolver", "DoubleBarrel", "TacticalShotgun"},
+        }
+    },
+    ['AutoPredictive'] = {
+        ['Active'] = true,
+        ['Mode'] = 2,
+    }
+},
+['Visuals'] = {
+    ['Boxes'] = {
+        ['Type'] = "3D", -- 2D, 3D, Corners --
+        ['Filled'] = {
+            ['Active'] = false,
+            ['FillColour'] = Color3.fromRGB(198, 0, 255)
+            ['FillTransparency']
+        }
+    },
+    ['HealthBars'] = {
+        ['Colour'] = Color3.fromRGB(9, 255, 0)
+        ['OutLine'] = {
+            ['Active'] = false,
+            ['Colour'] = Color3.fromRGB(0, 0, 0)
+        }
+    },
+    ['Names'] = {
+        ['Active'] = false,
+        ['TextTransparency'] = 0.5,
+    },
+    ['Distance'] = {
+        ['Active'] = false,
+        ['TextTransparency'] = 0.5,
+    }
+}, 
+['Miscellaneous'] = {
+    ['Macro'] = {
+        ['Enabled'] = true,
+        ['Keybind'] = 'X',
+    },
+    ['Resolver'] = {
+        ['Enabled'] = true,
+        ['Notification'] = false,
+    },
+    ['Turn'] = {
+        ['Enabled'] = true,
+        ['TurnDegrees'] = {
+            ['Value'] = "360",
+        }
+    }
+},
+
+-- the rest is hidden cutie :3 --
